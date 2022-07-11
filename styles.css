@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: #ece8e5;
+  background-color: #ece8e5 !important;
 }
 
 .img-responsive {
@@ -91,6 +91,9 @@ h1.title-right {
   text-align: right;
   margin: 120px 0 70px;
 }
+.project__item {
+  margin-bottom: 70px;
+}
 .project__item .project__item-frame {
   border: 10px solid;
 }
@@ -111,9 +114,20 @@ h1.title-right {
 }
 
 .project__item-title {
-  margin: 32px 0 29px;
+  margin: 29px 0 32px;
   text-align: left;
   font: normal normal 600 32px/80px Roboto Mono;
+  letter-spacing: 0px;
+  color: #1b3849;
+  opacity: 1;
+}
+
+.project__item-tags span {
+  margin: 8px;
+  padding: 16px 6px;
+  border: 1px solid;
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto Mono;
   letter-spacing: 0px;
   color: #1b3849;
   opacity: 1;
