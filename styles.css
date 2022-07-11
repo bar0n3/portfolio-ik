@@ -122,6 +122,15 @@ h1.title-right {
   opacity: 1;
 }
 
+.project__item-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project__item-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
 .project__item-tags span {
   margin: 8px;
   padding: 16px 6px;
