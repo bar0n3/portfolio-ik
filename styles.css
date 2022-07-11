@@ -6,7 +6,12 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #ece8e5;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 100%;
 }
 
 .header__name {
@@ -88,6 +93,15 @@ h1.title-right {
 }
 .project__item .project__item-frame {
   border: 10px solid;
+}
+.project__item .project__item-frame:hover {
+  text-align: right;
+  font: normal normal bold 65px/80px Roboto Mono;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 6px 8px 0px #ff6f4a;
+  text-transform: uppercase;
+  opacity: 1;
 }
 .project__item_black .project__item-frame {
   border-color: #223747;
